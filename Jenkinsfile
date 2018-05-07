@@ -3,7 +3,6 @@ pipeline {
     node {
       label 'master'
     }
-
   }
   stages {
     stage('Build') {
